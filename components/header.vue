@@ -10,9 +10,9 @@ const setActive = (link) => {
     <header id="header">
         <div class="d-flex flex-column">
             <div class="profile">
-                <img src="../assets/img/T1.png" alt="" class="img-fluid rounded-circle"
+                <img src="../assets/img/T2.png" alt="" class="img-fluid rounded-circle"
                     style="object-fit: cover;">
-                <h1 class="text-light"><a href="index.html">Terry Pan</a></h1>
+                <h1 class="text-light"><a href="index.html">Johnny Hu</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="https://github.com/terrypan1" class="twitter"><i class="bi bi-github"></i></a>
                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>

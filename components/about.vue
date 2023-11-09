@@ -35,7 +35,7 @@ onMounted(() => {
             <div class="row">
                 <transition name="slide-in-left">
                     <div class="col-lg-4" v-if="isVisible" data-aos="fade-right">
-                        <img src="../assets/img/T1.png" class="img-fluid" alt="">
+                        <img src="../assets/img/T2.png" class="img-fluid" alt="">
                     </div>
                 </transition>
                 <transition name="slide-in-right">

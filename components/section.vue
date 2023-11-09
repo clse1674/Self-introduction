@@ -41,7 +41,7 @@ onMounted(() => {
 <template>
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
         <div class="hero-container" data-aos="fade-in">
-            <h1>Terry Pan</h1>
+            <h1>Johnny Hu</h1>
             <p>I'm <span class="typed">{{ typedText }}</span></p>
         </div>
     </section>

@@ -19,3 +19,8 @@
 - npx serve .output/public 可以執行本地server
 
 - npm i vue-countup-v3  https://github.com/inorganik/countUp.js
+
+# 啟動
+- 安裝node.js
+- npm install (第一次)
+- npm run dev
