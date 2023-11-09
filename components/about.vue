@@ -24,8 +24,7 @@ onMounted(() => {
         <div class="container">
             <div class="section-title">
                 <h2>About</h2>
-                <p style="font-weight: 900;">歡迎來到我的網頁，
-                </p>
+                <p style="font-weight: 900;">歡迎來到我的網頁</p>
             </div>
             <div class="row">
                 <transition name="slide-in-left">

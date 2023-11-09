@@ -24,7 +24,7 @@
                         <div>
                             <a href="https://air-conditioner-seven.vercel.app/" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox" title="嘉和水電冷氣行"><i class="bx bx-plus"></i>
-                                <img src="../assets/img/img1.png" class="img-fluid">
+                                <img src="../assets/img/img1.jpg" class="img-fluid">
                             </a>
                         </div>
                     </div>
