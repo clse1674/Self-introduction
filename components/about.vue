@@ -24,12 +24,7 @@ onMounted(() => {
         <div class="container">
             <div class="section-title">
                 <h2>About</h2>
-                <p style="font-weight: 900;">歡迎來到我的網頁，一名熱情且經驗豐富的前端開發工程師。我專注於使用 Vue.js
-                    框架來創建直觀且動態的用戶介面。我對於撰寫乾淨且高效的代碼充滿熱情，並總是追求最佳的用戶體驗。
-
-                    在前端領域，我不僅累積了豐富的 Vue 開發經驗，也熟悉現代前端技術
-
-                    。我習慣於在敏捷開發環境中與團隊密切合作，從產品設計到功能開發，我都能提供專業的技術支持。
+                <p style="font-weight: 900;">歡迎來到我的網頁，
                 </p>
             </div>
             <div class="row">
