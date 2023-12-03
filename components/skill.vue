@@ -49,7 +49,7 @@ onMounted(() => {
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up">
                             <div class="progress">
-                                
+                                <span class="skill">JavaScript</span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" :style="{ width: progress.JavaScrip }" role="progressbar"
                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
