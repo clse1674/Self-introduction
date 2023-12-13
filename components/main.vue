@@ -6,9 +6,9 @@ import Profolio from './portfolio.vue'
 </script>
 <template>
     <main id="main">
-        <About></About>
         <Skill></Skill>
         <Resume></Resume>
+        <About></About>
         <Profolio></Profolio>
     </main>
 </template>

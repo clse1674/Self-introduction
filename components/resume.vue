@@ -13,55 +13,58 @@
 
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-up">
-                    <h3 class="resume-title">Education</h3>
+                    <h3 class="resume-title">進修</h3>
                     <div class="resume-item pb-0">
-                        <h4>高雄科技大學</h4>
-                        <p><em>電機工程學系</em></p>
+                        <h4>緯育股份有限公司</h4>
+                        <h5>2023-08 ~ 仍在職</h5>
+                        <p><em>AI智慧應用開發實戰養成班</em></p>
                         <ul>
-                            <li>學士學位</li>
-                            <li>地點:高雄</li>
+                        <li>地點:台北</li>
                         </ul>
                     </div>
-                    <h3 class="resume-title">工作經驗</h3>
-                    <div class="resume-item">
-                        <h4>晉龍有限公司</h4>
-                        <h5>2011 - 2017</h5>
-                        <p><em>品管人員</em></p>
+
+                    <h3 class="resume-title">學歷</h3>
+                    <div class="resume-item pb-0">
+                        <h4>國立東華大學 NDHU</h4>
+                        <h5>2014/9 ~ 2018/8</h5>
+                        <p><em>資訊工程所</em></p>
                         <ul>
-                            <li>驅動IC Bonding 測試</li>
-                            <li>地點:新竹</li>
-                            <li>5年9個月</li>
+                            <li>碩士畢業</li>
+                            <li>地點:花蓮</li>
                         </ul>
                     </div>
+
                     <div class="resume-item">
-                        <h4>詠詮事業有限公司</h4>
-                        <h5>2018 - 2021</h5>
-                        <p><em>機電工程師</em></p>
-                        <p>機電系統維護及緊急修復</p>
-                        <li>地點:桃園</li>
-                        <li>3年6個月</li>
+                        <h4>中國文化大學 PCCU</h4>
+                        <h5>2010/9 ~ 2014/6</h5>
+                        <p><em>應用數學系輔系資訊工程系</em></p>
+                        <ul>
+                            <li>學士畢業</li>
+                            <li>地點:台北</li>
+                        </ul>
                     </div>
                 </div>
+
+
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="resume-title">工作經驗</h3>
                     <div class="resume-item">
-                        <h4>坂和企業有限公司</h4>
-                        <h5>2022/7 - 2022/11</h5>
-                        <p><em>前端實習生</em></p>
+                        <h4>衛生福利部</h4>
+                        <h5>2020/7 ~ 2023/6</h5>
+                        <p><em>研發替代役研究助理</em></p>
                         <ul>
-                            <p>畫面製作與程式撰寫</p>
-                            <li>地點:高雄</li>
-                            <li>6個月</li>
+                            <p>大續據分析建檔、提供各項業務所需之資訊協助。</p>
+                            <li>地點:南港</li>
+                            <li>3年</li>
                         </ul>
                     </div>
                     <div class="resume-item">
-                        <h4>連訊科技服務股份有限公司</h4>
-                        <h5>2022/12 - 2023/8</h5>
-                        <p><em>前端工程師</em></p>
+                        <h4>國立東華大學</h4>
+                        <h5>2019/8 ~ 2020/1</h5>                        
                         <ul>
-                            <p>前端專案開發</p>
-                            <li>地點:高雄</li>
-                            <li>9個月</li>
+                            <p>工讀生</p>
+                            <li>地點:花蓮</li>
+                            <li>6個月</li>
                         </ul>
                     </div>
                 </div>

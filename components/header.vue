@@ -14,25 +14,22 @@ const setActive = (link) => {
                     style="object-fit: cover;">
                 <h1 class="text-light"><a href="index.html">Johnny Hu</a></h1>
                 <div class="social-links mt-3 text-center">
-                    <a href="https://github.com/terrypan1" class="twitter"><i class="bi bi-github"></i></a>
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://github.com/clse1674" class="twitter"><i class="bi bi-github"></i></a>
+                    <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
                 </div>
             </div>
             <nav id="navbar" class="nav-menu navbar">
                 <ul>
-                    <li><a href="#hero" class="nav-link scrollto" @click="setActive('hero')"
-                            :class="{ active: activeLink == 'hero' }"><i
-                                class="bi bi-house-door-fill"></i><span>Home</span></a>
-                    </li>
-                    <li><a href="#about" class="nav-link scrollto" @click="setActive('about')" :class="{active:activeLink == 'about'}"><i class="bi bi-person-circle"></i><span>About</span></a>
-                    </li>
-                    <li><a href="#resume" class="nav-link scrollto" @click="setActive('resume')" :class="{active:activeLink == 'resume'}"><i
-                                class="bi bi-file-earmark"></i><span>Resumes</span></a>
-                    </li>
+                    <li><a href="#hero" class="nav-link scrollto" @click="setActive('hero')" :class="{ active: activeLink == 'hero' }"><i class="bi bi-house-door-fill"></i>
+                    <span>首頁</span></a></li>
+                    <li><a href="#skills" class="nav-link scrollto" @click="setActive('skill')" :class="{active:activeLink == 'skill'}"><i class="bi bi-briefcase-fill"></i>
+                    <span>技能</span></a></li>
+                    <li><a href="#resume" class="nav-link scrollto" @click="setActive('resume')" :class="{active:activeLink == 'resume'}"><i class="bi bi-file-earmark"></i>
+                    <span>經歷</span></a></li>
+                    <li><a href="#about" class="nav-link scrollto" @click="setActive('about')" :class="{active:activeLink == 'about'}"><i class="bi bi-person-circle"></i>
+                    <span>關於</span></a></li>
                     <li><a href="#portfolio" class="nav-link scrollto" @click="setActive('portfolio')" :class="{active:activeLink == 'portfolio'}"><i class="bi bi-layout-text-sidebar-reverse"></i>
-                            <span>Portfolio</span></a></li>
-                    <li><a href="#contact" class="nav-link scrollto"  @click="setActive('contact')" :class="{active:activeLink == 'contact'}"><i class="bi bi-envelope"></i><span>Contact</span></a>
-                    </li>
+                    <span>作品</span></a></li>
                 </ul>
             </nav>
         </div>

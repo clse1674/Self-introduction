@@ -41,13 +41,9 @@ onMounted(() => {
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>19 December
-                                            1984</span>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>25 December 1991</span>
                                     </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                        <span>www.example.com</span>
-                                    </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>0989181606</span>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span>github.com/clse1674</span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New Taipei City,
                                             Taiwan</span>
@@ -56,14 +52,11 @@ onMounted(() => {
                             </div>
                             <div class="col-lg-6">
                                 <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>38</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's
-                                            degree</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                                        <span>terrypan1@gmail.com</span>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>31</span>
                                     </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Job:</strong> <span>Front-end
-                                            engineer</span>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master's degree</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>clse1674@gmail.com</span>
                                     </li>
                                 </ul>
                             </div>

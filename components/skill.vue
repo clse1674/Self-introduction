@@ -22,12 +22,12 @@ onMounted(() => {
         const skillElement = document.querySelector('.skills'); // 用你的元素 ID 或 class 替換
         const rect = skillElement.getBoundingClientRect();
         if (rect.top <= window.innerHeight) {
-            progress.JavaScrip = '70%'// 滾動到視窗範圍內時更新寬度
-            progress.Python = '70%'
-            progress.Vue = '80%'
-            progress.Flask = '65%'
-            progress.Mysql = '70%'
-            progress.GCP = '60%'
+            progress.JavaScrip = '100%'// 滾動到視窗範圍內時更新寬度
+            progress.Python = '100%'
+            progress.Vue = '100%'
+            progress.Flask = '100%'
+            progress.Mysql = '100%'
+            progress.GCP = '100%'
             window.removeEventListener('scroll', handleScroll);
         }
     };
@@ -49,47 +49,69 @@ onMounted(() => {
                     <div class="row skills-content">
                         <div class="col-lg-6" data-aos="fade-up">
                             <div class="progress">
-                                <span class="skill">JavaScript</span>
+                                <span class="skill">Python</span>
                                 <div class="progress-bar-wrap">
+                                    <div class="progress-bar" :style="{ width: progress.Python }" role="progressbar"
+                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+
                             </div>
                             <div class="progress">
-                                <span class="skill">Python<i class="val">70%</i></span>
+                                <span class="skill">Java</span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" :style="{ width: progress.Python }" role="progressbar"
                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
+
                             <div class="progress">
-                                <span class="skill">Vue.js<i class="val">80%</i></span>
+                                <span class="skill">C++</span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" :style="{ width: progress.Vue }" role="progressbar"
                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
+
+                            <div class="progress">
+                                <span class="skill">C#</span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" :style="{ width: progress.Vue }" role="progressbar"
+                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="progress">
-                                <span class="skill">Flask<i class="val">65%</i></span>
+                                <span class="skill">GCP</span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" :style="{ width: progress.Flask }" role="progressbar"
                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="progress">
-                                <span class="skill">Mysql<i class="val">70%</i></span>
+                                <span class="skill">Docker</span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" :style="{ width: progress.Mysql }" role="progressbar"
                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                             <div class="progress">
-                                <span class="skill">GCP<i class="val">60%</i></span>
+                                <span class="skill">Flask</span>
                                 <div class="progress-bar-wrap">
                                     <div class="progress-bar" :style="{ width: progress.GCP }" role="progressbar"
                                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
+
+                            <div class="progress">
+                                <span class="skill">Hadoop、Spark</span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" :style="{ width: progress.GCP }" role="progressbar"
+                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -113,6 +135,7 @@ onMounted(() => {
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #050d18;
+    font-size: 20px;
 }
 
 .skills .progress .skill .val {
@@ -127,9 +150,9 @@ onMounted(() => {
 
 .skills .progress-bar {
     width: 1px;
-    height: 10px;
+    height: 20px;
     transition: 0.9s;
-    background-color: #149ddd;
+    background-color: #d3dd14;
 }
 
 .slide-up-enter-active,

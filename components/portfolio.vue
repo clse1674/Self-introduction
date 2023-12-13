@@ -13,12 +13,12 @@
             <div class="row" data-aos="fade-up">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">Front-end</li>
-                        <li data-filter=".filter-app">Backend</li>
+                        <li data-filter="*" class="filter-active">專案</li>
+                        <!-- <li data-filter=".filter-app">Backend</li> -->
                     </ul>
                 </div>
             </div>
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+            <!-- <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <div>
@@ -28,18 +28,18 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                         <div>
-                            <a href="https://chat-project-vdjs.vercel.app/" data-gallery="portfolioGallery"
+                            <a href="https://chat-project-web.vercel.app/" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox" title="PsyChat聊天機器人"><i class="bx bx-plus"></i>
                                 <img src="../assets/img/img3.png" class="img-fluid">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                         <div>
                             <a href="http://220.133.235.3:5021/#/login" data-gallery="portfolioGallery"
@@ -48,19 +48,19 @@
                             </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                </div> -->
+                <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                         <div>
                             <a href="http://220.133.235.3:5041/login" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox" title="專案:微商Demo"><i class="bx bx-plus"></i>
                                 <img src="../assets/img/img5.png" class="img-fluid">
                             </a>
-                        </div>
+                        </div> -->
                     </div>
-                </div>
+                <!-- </div>
             </div>
-        </div>
+        </div> -->
     </section>
 </template>
 <style lang="scss">
